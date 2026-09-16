@@ -21,7 +21,7 @@ npm run publish
 
 Do not submit until all validation passes. Review the generated pull request and respond to Raycast's review. Publication is not immediate and approval is not guaranteed.
 
-Three 2000 × 1250 PNG screenshots are included in `metadata/` for the Store and `media/` for the README. They show live resources, seven-day history, and provider-independent worktrees. The images are actual Raycast UI captures of an isolated preview with synthetic data and disabled cleanup actions, scaled and framed for the Store. No personal history or private project names are published. The preview data is not included in the installed extension.
+Three 2000 × 1250 PNG screenshots are included in `metadata/` for the Store and `media/` for the README. They show live resources, seven-day history, and provider-independent worktrees. The images are actual Raycast UI captures of an isolated preview with synthetic data and disabled cleanup actions, scaled and framed for the Store. No personal history or private project names are published. An additional unaltered 750 × 475 capture of Inactive Resources is included in `media/` and the README; the Store gallery retains the three 2000 × 1250 images. The preview data is not included in the installed extension.
 
 ## Native helper provenance
 

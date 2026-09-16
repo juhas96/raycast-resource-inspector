@@ -9,6 +9,7 @@ These captures use demonstration data; no personal usage history or private proj
 ![Live app memory and CPU](media/resource-inspector-1.png)
 ![Seven-day usage history](media/resource-inspector-2.png)
 ![Git worktrees across providers](media/resource-inspector-3.png)
+![Opt-in inactivity notifications](media/resource-inspector-inactivity.jpg)
 
 ## Use it
 
