@@ -4,7 +4,7 @@
   "title": "Resource Inspector",
   "description": "Inspect memory, CPU, disk activity, and Git worktrees. Deliberately close one app, process, or container, or remove one selected worktree.",
   "icon": "icon.png",
-  "author": "jkbjhs",
+  "author": "juhas96",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -70,10 +70,12 @@
     "react": "^19.0.0"
   },
   "devDependencies": {
+    "@raycast/eslint-config": "^2.2.0",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
-    "typescript": "^5.9.0",
+    "eslint": "^10.10.0",
+    "prettier": "^3.6.0",
     "tsx": "^4.20.0",
-    "prettier": "^3.6.0"
+    "typescript": "^5.9.0"
   }
 }

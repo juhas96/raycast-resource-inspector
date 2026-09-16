@@ -2,6 +2,14 @@
 
 A local-first Raycast extension for macOS. It shows live memory, CPU, and disk activity; keeps seven days of local history; lets you close one deliberately selected app, process, or OrbStack container; and manages individual Git worktrees across providers.
 
+## Screenshots
+
+These captures use demonstration data; no personal usage history or private project names are published.
+
+![Live app memory and CPU](media/resource-inspector-1.png)
+![Seven-day usage history](media/resource-inspector-2.png)
+![Git worktrees across providers](media/resource-inspector-3.png)
+
 ## Use it
 
 1. Open Raycast and search **Inspect Resources**.
@@ -86,7 +94,7 @@ npm run lint
 npx ray bundle -o ../resource-inspector.rayext
 ```
 
-Store submission requires a real Raycast author handle and an authenticated publishing session. The current author field is a local-development placeholder and must be updated before submission. Local builds and installation do not require Store publication or a Raycast CLI login.
+Store submission requires a real Raycast author handle and an authenticated publishing session. The author is configured as `juhas96`, matching the maintainer's Raycast profile. Local builds and installation do not require Store publication or a Raycast CLI login.
 
 For the optional destructive integration test, `tests/safety.integration.ts` creates and removes only its own disposable sleep process and Docker container. It requires the existing local `redis:7-alpine` image and access to OrbStack. Do not substitute production targets.
 

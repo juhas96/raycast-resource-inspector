@@ -216,5 +216,5 @@ export function pressureName(value: number | null) {
         : "Unavailable";
 }
 export function markdownText(value: string) {
-  return value.replace(/[\\`*_{}\[\]<>#|]/g, "\\$&");
+  return value.replace(/[\\`*_{}[\]<>#|]/g, "\\$&");
 }
